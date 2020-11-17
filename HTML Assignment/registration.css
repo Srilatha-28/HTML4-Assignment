@@ -1,0 +1,14 @@
+ header{
+     text-align: center;
+     color:blue;
+ }
+ 
+ table{
+    width: auto;
+    height:50px;
+    padding:10px;
+    color: rgb(241, 8, 8);
+}
+td:hover{
+    background-color: cadetblue;
+}

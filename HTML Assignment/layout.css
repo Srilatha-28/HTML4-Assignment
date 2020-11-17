@@ -1,0 +1,58 @@
+body{
+    background-color: cornsilk;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+    h1{
+    color:red;
+}
+
+ul li{
+    list-style-type: none;
+    margin-right: 50px;;
+}
+ul li ul li li{
+    list-style-type: none;
+    padding-right: 5px;
+    margin: 30px;
+    border:2px solid green;
+    
+    display: block;
+}
+li{
+    float:left;
+    width:100px;
+    height:20px;
+    border:2px blue solid;
+    margin-right: 10px;
+    background-color: pink;
+    text-align:center;
+    margin-right: 5px;
+    padding-right: 30px;
+}
+
+ul li a{
+    color:red;
+    text-decoration: none;
+    display:block;
+    
+}
+ul li a:hover{
+    background-color: yellow;;
+}
+ul li {
+    background-color: blanchedalmond;
+}
+ul li:hover ul, ul li.over ul {
+	display:block;
+}
+ul li:hover ul ul, ul li.over ul ul {
+	display:none;
+}
+
+ul ul li:hover ul, ul ul li.over ul{
+	display:block;
+}
